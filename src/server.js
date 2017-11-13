@@ -1,4 +1,4 @@
-import App from './App';
+import App from './app/App';
 import React from 'react';
 import streamString from 'node-stream-string';
 import { StaticRouter } from 'react-router-dom';
