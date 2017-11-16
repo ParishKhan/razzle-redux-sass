@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import logo from './react.svg';
 import './Home.scss';
 
@@ -8,7 +9,7 @@ class Home extends Component {
       <div className="Home">
         <div className="Home-header">
           <img src={logo} className="Home-logo" alt="logo" />
-          <h2>Welcome to Razzle Parish</h2>
+          <h2>Welcome to Razzle SASS</h2>
         </div>
         <p className="Home-intro">
           To get started, edit <code>src/App.js</code> or{' '}
@@ -19,7 +20,7 @@ class Home extends Component {
             <a href="https://github.com/jaredpalmer/razzle">Docs</a>
           </li>
           <li>
-            <a href="https://github.com/jaredpalmer/razzle/issues">Issues</a>
+            <Link to="/news" >News</Link>
           </li>
           <li>
             <a href="https://palmer.chat">Community Slack</a>
